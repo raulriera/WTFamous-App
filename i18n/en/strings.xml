@@ -12,9 +12,10 @@
 	<string name="celebrity_0_possible_answer_2">That question is not sexy enough. Try again.</string>
 	<string name="celebrity_0_possible_answer_3">Dive into my eyes, they say no.</string>
 	
-	<string name="celebrity_1_name">'God'</string>
-	<string name="celebrity_1_possible_answer_1">You don't ask the God, the God asks YOU!</string>
-	<string name="celebrity_1_possible_answer_2">I don't answer questions, they answer to ME!</string>
+	<string name="celebrity_1_name">Assassin</string>
+	<string name="celebrity_1_possible_answer_1">Yes, and you can relax for now. I'm not going to murder you, okay? </string>
+	<string name="celebrity_1_possible_answer_2">No, no, no, no, no. No, to get even, even-Steven...I will have to ask you now.</string>
+	<string name="celebrity_1_possible_answer_3">I am not pleased with that question. Ask again.</string>
 	
 	<string name="celebrity_2_name">Luis Chataing</string>
 	<string name="celebrity_2_possible_answer_1">Si, si, si, si, si.</string>

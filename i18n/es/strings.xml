@@ -12,9 +12,10 @@
 	<string name="celebrity_0_possible_answer_2">Esa pregunta no es lo suficientemente sexy. Intenta de nuevo.</string>
 	<string name="celebrity_0_possible_answer_3">Ve directamente a mis ojos, ellos te dicen que no.</string>
 	
-	<string name="celebrity_1_name">'Dios'</string>
-	<string name="celebrity_1_possible_answer_1">Tu no le preguntas a Dios, ¡el te pregunta a TI!</string>
-	<string name="celebrity_1_possible_answer_2">Yo no respondo preguntas, ¡ellas me responden a MI!</string>
+	<string name="celebrity_1_name">Asesina</string>
+	<string name="celebrity_1_possible_answer_1">Si, y ya te puedes relajar, no voy a matarte. </string>
+	<string name="celebrity_1_possible_answer_2">No, no, no, no, no. No, para estar a mano, tendría que preguntarte yo a ti.</string>
+	<string name="celebrity_1_possible_answer_3">No estoy complacida con esta pregunta. Hazla de nuevo.</string>
 	
 	<string name="celebrity_2_name">Luis Chataing</string>
 	<string name="celebrity_2_possible_answer_1">Si, si, si, si, si.</string>
