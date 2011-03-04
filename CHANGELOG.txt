@@ -1,0 +1,6 @@
+1.0.1:
+- Fix the link to the AppStore
+- Better memory management
+
+1.0:
+- Initial release

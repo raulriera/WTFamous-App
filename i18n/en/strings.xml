@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="play_button_label">Play</string>
+	<string name="instructions_button_label">How to play</string>
+	<string name="about_button_label">About</string>
+	
+	<string name="celebrity_thinking">Thinking...</string>
+	<string name="celebrity_next_possible_answer">Check for updates soon to see which character will be released next!</string>
+	
+	<string name="celebrity_0_name">Sexy Internet man</string>
+	<string name="celebrity_0_possible_answer_1">Yes. But a citation is needed</string>
+	<string name="celebrity_0_possible_answer_2">That question is not sexy enough. Try again.</string>
+	<string name="celebrity_0_possible_answer_3">Dive into my eyes, they say no.</string>
+	
+	<string name="celebrity_1_name">'God'</string>
+	<string name="celebrity_1_possible_answer_1">You don't ask the God, the God asks YOU!</string>
+	<string name="celebrity_1_possible_answer_2">I don't answer questions, they answer to ME!</string>
+	
+	<string name="celebrity_2_name">Luis Chataing</string>
+	<string name="celebrity_2_possible_answer_1">Si, si, si, si, si.</string>
+	<string name="celebrity_2_possible_answer_2">No</string>
+	
+	<string name="step1_label">Ask</string>
+	<string name="step2_label">Shake</string>
+	<string name="step3_label">WTF!</string>
+	
+	<string name="about_title">About WTF?!</string>
+	<string name="about_text">What The Famous is a little fun game created to mess around with friends or just to have a few laughts a day. It is not meant to be taken seriously when having to face real life decisions. \n\nPlease do note that the characters in this application are fictional and should not be taken as a direct endorsement from anyone who resembles him or her. What the Famous is not the official application of any famous person.</string>
+	<string name="share_tableview_header">Share WTF?!</string>
+	<string name="rate_app_message">Rate on the App Store</string>
+	<string name="tweet_app_message">Tweet about it</string>
+	<string name="share_twitter_tweet">Hehe check out WTF?! on your iPhone #wtf http://wtfamousapp.com</string>
+	<string name="open_external_link">This will open an external link outside of the app</string>
+	<string name="open_external_link_ok">Sure</string>
+	<string name="open_external_link_cancel">No, thank you</string>
+</resources>
