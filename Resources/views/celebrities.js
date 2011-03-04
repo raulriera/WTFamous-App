@@ -12,8 +12,8 @@ function showIndicator() {
 
 	// black view
 	var indView = Titanium.UI.createView({
-		height: 120,
-		width: 120,
+		height: 60,
+		width: 60,
 		backgroundColor:'#000',
 		borderRadius:10,
 		opacity: 0.6
@@ -25,7 +25,7 @@ function showIndicator() {
 		style:Titanium.UI.iPhone.ActivityIndicatorStyle.BIG,
 		height: 25,
 		width: 25,
-		top: 40
+		top: 47
 	});
 	indWin.add(actInd);
 
@@ -38,7 +38,7 @@ function showIndicator() {
 		font: {fontSize:16,fontWeight:'bold'},
 		bottom: 15
 	});
-	indWin.add(message);
+	//indWin.add(message);
 	indWin.open();
 	actInd.show();
 
