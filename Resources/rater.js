@@ -16,6 +16,14 @@ In your app.js (or elsewhere), call:
 ABOUT:
 Created by Greg Pierce, http://agiletortoise.com
 Modified by Raul Riera, http://raulriera.com
+
+LOCALIZATION:
+<string name="rating_title">Feedback</string>
+<string name="rating_message">Thank you for using this application, it would mean a lot to us if you took a minute to rate us at the App Store!.</string>
+<string name="rating_option_1">Rate now</string>
+<string name="rating_option_2">Don't remind me again</string>
+<string name="rating_option_3">Now now</string>
+
 */
 
 var Rater = {
