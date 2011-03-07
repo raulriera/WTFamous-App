@@ -92,3 +92,7 @@ var app = {};
 
 // Open the screen
 app.welcome_screen.open();
+
+Ti.include("rater.js");
+Rater.init("What the Famous?!", 421617929);
+Rater.run();
