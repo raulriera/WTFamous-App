@@ -20,6 +20,7 @@ var app = {};
 		backgroundColor: "#4c4c88",
 		selectedColor: "#f5ef37",
 		borderRadius: 10,
+		borderColor: "#fff",
 		top: 320,
 		left: 30,
 		right: 30,
@@ -35,6 +36,7 @@ var app = {};
 		backgroundColor: "#4c4c88",
 		selectedColor: "#f5ef37",
 		borderRadius: 10,
+		borderColor: "#fff",
 		top: 370,
 		left: 30,
 		right: 30,
@@ -50,6 +52,7 @@ var app = {};
 		backgroundColor: "#4c4c88",
 		selectedColor: "#f5ef37",
 		borderRadius: 10,
+		borderColor: "#fff",
 		top: 420,
 		left: 30,
 		right: 30,
@@ -65,9 +68,13 @@ var app = {};
 	// Add the corresponding listeners
 	app.play_button.addEventListener("click", function(e) {
 		
-		if (Ti.App.Properties.getString("HasBeenInstructed", null) === null) {
+		if (!Ti.App.Properties.getString("HasBeenInstructed", false)) {
 			alert(L("playing_without_instructions"));
 		}
+		
+		// Disable the button
+		e.source.enabled = false;
+		e.source.title = L("play_button_disabled_label");
 				
 		// Prepare the celebrities window
 		app.game_screen = Titanium.UI.createWindow({
@@ -106,7 +113,13 @@ var app = {};
 		// Open the window
 		app.about_screen.open({transition: Ti.UI.iPhone.AnimationStyle.FLIP_FROM_RIGHT});
 	});
-
+	
+	// Listen for the event to reanble the play button
+	Titanium.App.addEventListener("celebrities_loaded", function(){
+		app.play_button.enabled = true;
+		app.play_button.title = L("play_button_label");
+	});
+	
 })();
 
 // Open the screen

@@ -72,7 +72,7 @@ function hideIndicator() {
 	module.celebrity_faces = [];
 	
 	// For each celebrity found in the celebrities directory
-	for (var i=0; i <= 2; i++){
+	for (var i=0; i <= 3; i++){
 		// Create an celebrity object
 		module.celebrity = Titanium.UI.createView({
 			backgroundImage: "../characters/" + i + "/background.png"
@@ -217,6 +217,9 @@ function hideIndicator() {
 	
 	// Scroll to the last viewed character
 	module.faces_view.scrollToView(Titanium.App.Properties.getInt('current_position'));
+	
+	// Renable the play button
+	Titanium.App.fireEvent('celebrities_loaded');
 	
 })();
 
