@@ -50,6 +50,10 @@ var app = {};
 	// Add the corresponding listeners
 	app.play_button.addEventListener("click", function(e) {
 		
+		if (Ti.App.Properties.getString("HasBeenInstructed", null) === null) {
+			alert(L("playing_without_instructions"));
+		}
+				
 		// Prepare the celebrities window
 		app.game_screen = Titanium.UI.createWindow({
 			url: "views/celebrities.js",

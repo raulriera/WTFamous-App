@@ -40,3 +40,6 @@ close_button.addEventListener("click", function(e){
 });
 
 window.add(close_button, step1_label, step2_label, step3_label);
+
+// Mark as instructed
+Ti.App.Properties.setString("HasBeenInstructed", true);
