@@ -22,14 +22,14 @@ LOCALIZATION:
 <string name="rating_message">Thank you for using this application, it would mean a lot to us if you took a minute to rate us at the App Store!.</string>
 <string name="rating_option_1">Rate now</string>
 <string name="rating_option_2">Don't remind me again</string>
-<string name="rating_option_3">Now now</string>
+<string name="rating_option_3">Not now</string>
 
 */
 
 var Rater = {
 	appName:'',
 	appId:'',
-	interval: 5
+	interval: 3
 };
 
 Rater.data = {
