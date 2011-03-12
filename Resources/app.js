@@ -14,7 +14,12 @@ var app = {};
 
 	app.play_button = Titanium.UI.createButton({
 		title: L("play_button_label"),
-		font: {fontFamily:"ArialRoundedMTBold", fontSize: 18},
+		font: {fontFamily:"TrebuchetMS", fontSize: 18, fontWeight: "bold"},
+		color: "#fff",
+		backgroundImage: 'none',
+		backgroundColor: "#4c4c88",
+		selectedColor: "#f5ef37",
+		borderRadius: 10,
 		top: 320,
 		left: 30,
 		right: 30,
@@ -24,7 +29,12 @@ var app = {};
 	
 	app.instructions_button = Titanium.UI.createButton({
 		title: L("instructions_button_label"),
-		font: {fontFamily:"ArialRoundedMTBold", fontSize: 18},
+		font: {fontFamily:"TrebuchetMS", fontSize: 18, fontWeight: "bold"},
+		color: "#fff",
+		backgroundImage: 'none',
+		backgroundColor: "#4c4c88",
+		selectedColor: "#f5ef37",
+		borderRadius: 10,
 		top: 370,
 		left: 30,
 		right: 30,
@@ -34,7 +44,12 @@ var app = {};
 	
 	app.about_button = Titanium.UI.createButton({
 		title: L("about_button_label"),
-		font: {fontFamily:"ArialRoundedMTBold", fontSize: 18},
+		font: {fontFamily:"TrebuchetMS", fontSize: 18, fontWeight: "bold"},
+		color: "#fff",
+		backgroundImage: 'none',
+		backgroundColor: "#4c4c88",
+		selectedColor: "#f5ef37",
+		borderRadius: 10,
 		top: 420,
 		left: 30,
 		right: 30,
