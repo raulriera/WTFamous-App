@@ -64,6 +64,9 @@ function hideIndicator() {
 	});
 	
 	close_button.addEventListener("click", function(e){
+		// Renable the play button
+		Titanium.App.fireEvent('celebrities_loaded');
+		// Close the current window
 		module.window.close({transition: Ti.UI.iPhone.AnimationStyle.FLIP_FROM_RIGHT});
 	});
 	
@@ -217,9 +220,6 @@ function hideIndicator() {
 	
 	// Scroll to the last viewed character
 	module.faces_view.scrollToView(Titanium.App.Properties.getInt('current_position'));
-	
-	// Renable the play button
-	Titanium.App.fireEvent('celebrities_loaded');
 	
 })();
 
