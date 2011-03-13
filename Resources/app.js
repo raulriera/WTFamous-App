@@ -75,6 +75,7 @@ var app = {};
 		// Disable the button
 		e.source.enabled = false;
 		e.source.title = L("play_button_disabled_label");
+		e.source.backgroundColor = "#666";
 				
 		// Prepare the celebrities window
 		app.game_screen = Titanium.UI.createWindow({
@@ -118,6 +119,7 @@ var app = {};
 	Titanium.App.addEventListener("celebrities_loaded", function(){
 		app.play_button.enabled = true;
 		app.play_button.title = L("play_button_label");
+		app.play_button.backgroundColor ="#4c4c88";
 	});
 	
 })();
