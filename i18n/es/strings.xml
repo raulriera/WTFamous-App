@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<string name="play_button_label">Jugar</string>
+	<string name="play_button_disabled_label">Cargando...</string>
 	<string name="instructions_button_label">Cómo jugar</string>
 	<string name="about_button_label">Sobre WTF</string>
 	<string name="playing_without_instructions">Aja, yendo a jugar sin leer las instrucciones ;)</string>
@@ -26,7 +27,7 @@
 	<string name="celebrity_3_possible_answer_1">Mis poderes de guerrero dicen que si.</string>
 	<string name="celebrity_3_possible_answer_2">Wow. ¿Qué significa eso? Estoy bi-GANANDO. Intenta de nuevo.</string>
 	<string name="celebrity_3_possible_answer_3">Jaja no, o tu cara se derretirá y tus niños llorarán sobre tu cuerpo estallido.</string>
-	<string name="celebrity_3_possible_answer_4">No, ¡NO! obviamente no tienes nada de sangre de tigre dentro de ti.</string>
+	<string name="celebrity_3_possible_answer_4">No, ¡NO! obviamente no tienes nada de sangre de tigre dentro de ti. Duh</string>
 	
 	<string name="step1_label">Pregunta</string>
 	<string name="step2_label">Agita</string>

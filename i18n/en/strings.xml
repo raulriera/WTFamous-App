@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<string name="play_button_label">Play</string>
+	<string name="play_button_disabled_label">Loading...</string>
 	<string name="instructions_button_label">How to play</string>
 	<string name="about_button_label">About</string>
 	<string name="playing_without_instructions">Feeling good about yourself, heading in without reading the instructions huh? ;)</string>
@@ -26,7 +27,7 @@
 	<string name="celebrity_3_possible_answer_1">My warlock powers say yes.</string>
 	<string name="celebrity_3_possible_answer_2">Wow. What does that mean? I’m bi-WINNING. Try again.</string>
 	<string name="celebrity_3_possible_answer_3">Haha no, or your face will melt off and your children will weep over your exploded body.</string>
-	<string name="celebrity_3_possible_answer_4">No, NO! you clearly don't have any tiger blood in you!</string>
+	<string name="celebrity_3_possible_answer_4">No, NO! you clearly don't have any tiger blood in you! Duh.</string>
 	
 	
 	<string name="step1_label">Ask</string>

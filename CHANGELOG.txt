@@ -1,6 +1,7 @@
-1.0.1:
-- Fix the link to the AppStore
-- Better memory management
+1.1:
+- Added new character: "Winner"
+- A few enhancements
+- A much better UI
 
 1.0:
 - Initial release
