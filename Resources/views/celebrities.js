@@ -75,7 +75,7 @@ function hideIndicator() {
 	module.celebrity_faces = [];
 	
 	// For each celebrity found in the celebrities directory
-	for (var i=0; i <= 3; i++){
+	for (var i=0; i <= 4; i++){
 		// Create an celebrity object
 		module.celebrity = Titanium.UI.createView({
 			backgroundImage: "../characters/" + i + "/background.png"

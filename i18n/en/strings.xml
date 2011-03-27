@@ -29,6 +29,11 @@
 	<string name="celebrity_3_possible_answer_3">Haha no, or your face will melt off and your children will weep over your exploded body.</string>
 	<string name="celebrity_3_possible_answer_4">No, NO! you clearly don't have any tiger blood in you! Duh.</string>
 	
+	<string name="celebrity_4_name">El Presidente</string>
+	<string name="celebrity_4_possible_answer_1">Yes, you can!</string>
+	<string name="celebrity_4_possible_answer_2">Nope. We cannot pretend somehow that because I got elected as president, suddenly everything is going to be right.</string>
+	<string name="celebrity_4_possible_answer_3">You must be from the other party. Please ask again.</string>
+	<string name="celebrity_4_possible_answer_4">Yes, maybe I should make a bill for that too?.</string>
 	
 	<string name="step1_label">Ask</string>
 	<string name="step2_label">Shake</string>
